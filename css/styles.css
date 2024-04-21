@@ -168,7 +168,8 @@ body {
 }
 /* ============ Our Benefits Styles ============ */
 .benefits-title {
-  padding: 120px 0;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .benefits-list {
   display: flex;
@@ -220,7 +221,8 @@ body {
 }
 .team-box {
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   width: 232px;
   height: 56px;
 }
@@ -276,7 +278,6 @@ body {
   border-top: none;
 }
 .section-title {
-  padding: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -284,6 +285,7 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -298,6 +300,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 /* ============ Footer Styles============ */
 .page-footer {
