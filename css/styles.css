@@ -204,29 +204,6 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
-.section-paddings {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-.our-team-list-item {
-  background-color: #ffffff;
-  width: calc ((100% - 72px)/ 4);
-  border-radius: 0px 0px 4px 4px;
-}
-.our-team-list-img {
-  width: 264px;
-  height: 260px;
-}
-
-.team-box {
-  border-radius: 0 0 4px 4px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  width: 232px;
-  height: 56px;
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -236,6 +213,26 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+.our-team-list-item {
+  background-color: #ffffff;
+  width: calc ((100% - 72px)/ 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-img {
+  width: 264px;
+  height: 260px;
+}
+.team-box {
+  border-radius: 0 0 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 232px;
+}
+.section-paddings {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .our-team-list-list {
   display: flex;
