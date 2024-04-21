@@ -203,10 +203,26 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
-
+.section-paddings {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .our-team-list-item {
   background-color: #ffffff;
   width: calc ((100% - 72px)/ 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-list-img {
+  width: 264px;
+  height: 260px;
+}
+.team-box {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 232px;
+  height: 56px;
 }
 .section-title {
   font-weight: 700;
@@ -214,7 +230,9 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-team-list-list {
   display: flex;
@@ -227,7 +245,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .our-people {
   font-weight: 400;
@@ -258,6 +276,7 @@ body {
   border-top: none;
 }
 .section-title {
+  padding: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -306,4 +325,6 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
 }
